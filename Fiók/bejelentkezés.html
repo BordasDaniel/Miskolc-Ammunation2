@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bejelentkezés</title>    
+<style>
+    html{
+        overflow: hidden;
+    background-color: #111111;
+    }
+
+    .box{
+        top: 15%;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        text-align: center;
+        /* transform: translate(-50%, -50); */
+        background: #111111;
+        /* border-radius: 5px; */
+        margin: auto;
+
+    }
+    .box input[type = "email"], .box input[type = "password"], .box input[type = text]{  
+        border: 3px solid;
+        background: #28272796;
+        margin: 9px auto;
+        border-color: #335830;
+        border-radius: 5px;
+        text-align: center;
+        padding: 11px 15px;
+        outline: none;
+        color: darkgray;
+        transition: 0.25s;
+
+    }
+    .box input[type = "email"]:focus , .box input[type = "password"]:focus , .box input[type = text]:focus{
+        width: 200px;
+        border-color: #317e4e;
+    }
+    .box input[type = "submit"]{
+        border: 2px solid;
+        background: #28272796;
+        border-color: #335830;
+        border-radius: 5px;
+        color: gray;
+        padding: 7px 7px;
+        cursor: pointer;
+        transition: 0.25s;
+        outline: none
+    }
+    .box input[type = text]{
+        width: 200px;
+    }
+    .box input[type = email]{
+        width: 170px;
+    }
+    .box input[type = "submit"]:hover{
+        background: #317e4e;
+        border-color: #335830;
+    }
+    body{
+        background-color: white;
+    }
+    h1{
+        /* color: rgb(179, 177, 177); */
+        color: #fff;
+        font-family:sans-serif;
+        text-transform: uppercase;
+    }
+
+
+
+
+</style>
+
+
+</head>
+<body>
+    <form action="adatok.html" method="post" class="box">
+        <h1>Bejelentkezés </h1>
+        <input type="text" placeholder="Keresztnév" required name="knev">
+        <br>
+        <input type="text" placeholder="Vezetéknév" required name="vnev">
+        <br>
+        <input type="email" placeholder="Email" required name="email">
+        <br>
+        <input type="password" placeholder="Jelszó" required name="passw">
+        <br>
+        <!-- <input type="password" placeholder="Jelszó ismét" required name="passwi"> -->
+        <br>
+        <input type="submit" value="belépés">
+       <a href="regisztráció.html" style="color:#551a8b"> <h2> Még nincs fiókod? <br> Regisztrálj!</h2> </a>
+    </form>
+
+
+</body>
+</html>
