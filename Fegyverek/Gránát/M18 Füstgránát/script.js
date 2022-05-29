@@ -28,3 +28,7 @@ function myFunction() {
       x.className = "topnav";
     }
   }
+function hozzaad(termek) {
+    db = Number(prompt('Mennyit kérsz?'))
+    localStorage.setItem(termek, db)
+}
