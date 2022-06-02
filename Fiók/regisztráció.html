@@ -39,7 +39,7 @@
         width: 200px;
         border-color: #317e4e;
     }
-    .box input[type = "submit"]{
+    .box .adat{
         border: 2px solid;
         background: #28272796;
         border-color: #335830;
@@ -56,7 +56,7 @@
     .box input[type = email]{
         width: 170px;
     }
-    .box input[type = "submit"]:hover{
+    .box .adat:hover{
         background: #317e4e;
         border-color: #335830;
     }
@@ -70,15 +70,16 @@
         text-transform: uppercase;
     }
 
-
-
-
 </style>
+
+
+
+
 
 
 </head>
 <body>
-    <form action="adatok.html" method="post" class="box">
+    <form action="adatok.html" class="box">
         <h1>Regisztráció</h1>
         <input type="text" placeholder="Keresztnév" required name="knev">
         <br>
@@ -90,12 +91,11 @@
         <br>
         <input type="password" placeholder="Jelszó ismét" required name="passwi">
         <br>
-       <input <a href="adatok.html"> value="létrehozás"></a>
+       
+        <button class="adat"> Regisztráció  </button>
        <a href="bejelentkezés.html" style="color:#551a8b"> <h2> Már van egy meglévő fiókod? <br> Jelentkezz be!  </h2> </a>
     </form>
 
 
 </body>
 </html>
-
-<style></style>
