@@ -1,0 +1,24 @@
+
+Kódolás:
+Bordás Dániel - Minták készitése, Weboldal egybe rakása, leadva.html, adatok.html (10%)
+Mátrai Ákos - Regisztráció.html, Bejelentkezés.html, kosár, (10%)
+Sándor Roland - carousel, Kezdőlap.html, (9%)
+Poráczky Zsolt - Képek kezdőlaphoz, Navbar, (9%)
+Mihalik Hanna - Logo, Leirás, Rólunk.html (10%)
+Pál Máté - Promo. videó, Adatokból html, (9%)
+Haluska Dániel - Adatokból html, assault adatok, (9%)
+Székely Martin - Adatokból html, assault adatok, (9%)
+
+
+Adatok:
+Sümegi Zétény - Kiegészitőkhöz adatok, képek (4%)
+Váradi Péter - Késekhez adatok, képek (3%)
+Dudás Ádám - Gránátokhoz adatok, képek (3%)
+Bastyúr Milán - SMG-khez adatok, képek (4%)
+Kormos Zsolt - SMG-khez adatok, képek (4%)
+Molnár Zsolt - Pisztolyokhoz adatok, képek  (3%)
+Katona Dominik - Pisztolyokhoz adatok, képek (4%)
+
+A százalék arányok a teljes weboldalhoz képest vannak viszonyitva.
+Voltak akik hamar végeztek a részükkel, illetve másoknak a munkájában is segitettek ezek az emberek magassabb százalékot értek el.
+Ami mindenkitől elvárt volt(az adott részük) az teljesitve is lett.
