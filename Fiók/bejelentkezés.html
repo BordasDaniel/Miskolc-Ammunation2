@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bejelentkezés</title>    
+    <title>Regisztráció</title>    
 <style>
     html{
         overflow: hidden;
@@ -39,7 +39,7 @@
         width: 200px;
         border-color: #317e4e;
     }
-    .box input[type = "submit"]{
+    .box .adat{
         border: 2px solid;
         background: #28272796;
         border-color: #335830;
@@ -56,7 +56,7 @@
     .box input[type = email]{
         width: 170px;
     }
-    .box input[type = "submit"]:hover{
+    .box .adat:hover{
         background: #317e4e;
         border-color: #335830;
     }
@@ -70,16 +70,17 @@
         text-transform: uppercase;
     }
 
-
-
-
 </style>
+
+
+
+
 
 
 </head>
 <body>
-    <form action="adatok.html" method="post" class="box">
-        <h1>Bejelentkezés </h1>
+    <form action="adatok.html" class="box">
+        <h1>Regisztráció</h1>
         <input type="text" placeholder="Keresztnév" required name="knev">
         <br>
         <input type="text" placeholder="Vezetéknév" required name="vnev">
@@ -88,10 +89,11 @@
         <br>
         <input type="password" placeholder="Jelszó" required name="passw">
         <br>
-        <!-- <input type="password" placeholder="Jelszó ismét" required name="passwi"> -->
+        <input type="password" placeholder="Jelszó ismét" required name="passwi">
         <br>
-        <a href="adatok.html">  <input value="belépés"></a>
-       <a href="regisztráció.html" style="color:#551a8b"> <h2> Még nincs fiókod? <br> Regisztrálj!</h2> </a>
+       
+        <button class="adat"> Regisztráció  </button>
+       <a href="bejelentkezés.html" style="color:#551a8b"> <h2> Már van egy meglévő fiókod? <br> Jelentkezz be!  </h2> </a>
     </form>
 
 
